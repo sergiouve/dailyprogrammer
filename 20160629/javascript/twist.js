@@ -76,7 +76,6 @@ var twistUp = function (data) {
 	return output_data;
 }
 
-
 fs.readFile('../input.txt', 'utf-8', function(err, data) {
 	console.log(twistUp(data));
 });
